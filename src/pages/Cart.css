@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(69, 67, 67);
+}
+
+.app-cart {
+    font-family: Arial, sans-serif;
+  }
+  
+  .notification-cart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s, slideOut 0.5s 2.5s;
+    margin-left: 40px;
+  }
+  
+  @keyframes slideIn {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 20px;
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      right: 20px;
+    }
+    to {
+      right: -100%;
+    }
+  }
+  
+  .home-cart {
+    padding: 20px;
+    margin-left: 40px;
+  }
+  
+  .products-cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  
+  .product-cart {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(25% - 40px);
+    margin-left: 40px;
+  }
+  
+  .product-cart img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px;
+  }
+  
+  .product-cart button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  .cart-container-cart {
+    padding: 20px;
+    margin-left: 40px;
+  }
+  
+  .cart-empty-cart {
+    text-align: center;
+    margin-left: 40px;
+  }
+  
+  .cart-empty-cart h2 {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .go-to-shop-cart {
+    text-decoration: none;
+    color: #ff007f;
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  
+  .cart-item-cart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .cart-item-cart img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  
+  .cart-item-details-cart {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .cart-item-controls-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .cart-item-controls-cart button {
+    margin: 0 5px;
+    margin-left: 40px;
+  }
+  
+  .order-button-cart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 60px;
+  }

@@ -1,0 +1,26 @@
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-button {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #ddb347;
+}
